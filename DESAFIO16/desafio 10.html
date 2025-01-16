@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO CAPITULO 16</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <style>
+            @font-face{
+                font-family: 'Android';
+                src: url('fontes/idroid.otf') format('opentype');
+                font-weight: normal;
+            }
+
+            :root{
+                --android : 'Android' ,  sans-serif ; 
+              }
+
+        .caixa {
+
+            background-color: rgba(0, 128, 0, 0.24);
+            margin-top: 16px;
+            margin-left: 16px;
+            border: 15px solid rgba(0, 0, 255, 0.171);
+            border-radius: 26px;
+            text-align: justify;
+  }
+
+        .caixaHistoria {
+            margin-left: 18px;
+            background-color: turquoise;
+            text-align: center;
+
+
+        }
+
+        .caixa2 {
+            margin-left: 16px;
+            background-color: rgba(128, 128, 128, 0.651);
+            /* margin: auto ; */
+            border: 40px 40px; 
+        }
+
+        body {
+            margin: auto;
+            max-width: 835px;
+            min-width: 280px;
+            box-shadow: 0px 0px 10px black;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+        }
+
+        h2 {
+            font-family: var(--android);
+            background-color: rgba(40, 58, 40, 0.651);
+            color: green;
+        }
+
+        /* h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        } */
+
+        header {
+            background-color: rgba(12, 156, 67, 0.726);
+            color: white;
+            height: 150px;
+            /* background-image: linear-gradient (to bottom , red , green); */
+            /* text-align: center;  ALINHA O MENU TAMBEM . O QUE EU NAO QUERO*/
+            
+        }
+
+        nav>a {
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            margin: 5px;
+
+        }
+
+        a:hover {
+            color: blue;
+            background-color: aqua;
+            border-radius: 50%;
+        }
+
+        h1{
+            text-shadow: 2px 2px 0px black ;
+        }
+
+    </style>
+
+</head>
+
+<body style="background-color: antiquewhite;">
+
+    <header>
+        <h1 style="text-align: center;"> CURIOSIDADES DE TECNOLOGIA</h1>
+        <p style="text-decoration: solid; text-align: center;">tudo aquilo que voce sempre quis saber sobre o mundo Tech
+            , em um unico lugar
+        </p>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">Noticias</a>
+            <a href="">Curiosidades</a>
+            <a href="">Fale connosco</a> 
+        </nav>
+
+ </header>
+
+ 
+    <article>
+
+        <div class="caixa2">
+            <h2 style="color: rgba(48, 182, 15, 0.514); font-family: var(--android); margin-bottom:16px; background: linear-gradient(to right , rgba(0, 70, 128, 0.795)
+                    rgb(102, 0, 128)
+                    );">
+                historia do mascote do android</h2>
+            <p> Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados
+                para
+                dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e
+                uma
+                história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho </p>
+            <h3 style="background:linear-gradient(to right , rgba(0, 128, 0, 0.671) , rgba(0, 128, 0, 0.103))  ; font-family: var(--android);">
+                A primeira versão
+            </h3>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill <a href="https://translate.google.com/translate?u=https://en.wikipedia.org/wiki/Daniele_Mori&hl=pt&sl=en&tl=pt&client=srp&prev=search" target="_blank" style="background-color: rgba(0, 128, 0, 0.432);"> DAN MORIL &#128511</a>
+                .
+                Ele
+                conta que abriu o Inkscape (software livre para vetorização de imagens) <a href="https://pt.wikipedia.org/wiki/Inkscape" target="_blank" style="background-color: rgba(0, 128, 0, 0.274);"> INKSCAPE &#128511 </a>e criou sua própria versão de
+                robô.
+                O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação
+                da
+                empresa para a criação de um mascote.</p>
+            <div style="display: flex ;justify-content: center; align-items: center;">
+                
+                
+                    <picture>
+                        <source media="(max-width: 835px )" srcset="imagens/dan-droids-pq.png">
+                        <img src="imagens/dan-droids.png" alt="lodo dan-droids"></img>
+                    </picture>
+                
+                </div>
+            Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
+
+        </div>
+
+
+        <div class="caixaHistoria">
+            <h3 style="font-family: var(--android);">Surge um novo mascote</h3>
+            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A
+                ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno
+                robô
+                de uma maneira mais agradável.</p>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <picture>
+                    <source media="(max-width: 835px )" srcset="imagens/irina-blok-pq.jpg">
+                    <img src="imagens/irina-blok.jpg" alt="">
+                </picture>
+            </div>
+            <p> </p>
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O
+                desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo
+                mascote
+                do Android.</p>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img src="imagens/bugdroid.png" alt="boneco android">
+            </div>
+            <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de
+                banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no
+                escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo,
+                objetivo.</p>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <iframe width="869" height="489" src="https://www.youtube.com/embed/48hoGzws_XE"
+                title="Android KITKAT 4.4 - Android Animation - Boat" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+
+
+
+        <div class="caixa">
+            <h3 style="color: white; font-family: var(--android);">Quer aprender mais? </h3>
+
+            <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce,
+                em
+                ordem alfabética a partir da versão 1.5 até a 9.0.</p>
+
+            <ul>
+                <abbr title="|">
+                    <li>1.5 - <abbr title="bolo de copo">cupcake</abbr></li>
+                    <li>1.6 - <abbr title="txobobo">donut</abbr></li>
+                    <li>3.0 - <abbr title=" bolo de chocolate">Ecalirt</abbr> </li>
+                    <li> 2.2 - <abbr title="yougurte gelado">Froyo</abbr></li>
+                    <li> 2.3 - <abbr title="biscoito de gengibre">Gingerbread</abbr></li>
+                    <li> 3.0 - <abbr title="favo de mel">Honeycomb</abbr></li>
+                    <li>4.0 - <abbr title="sanduiche de sorvete">Ice Cream Sandwich</abbr> </li>
+                    <li>4.1 - <abbr title="doces">jelly bean</abbr></li>
+                    <li>4.4 <abbr title="kitkat">kitkat</abbr></li>
+                    <li>5.0 - <abbr title="pirulitpo">lolipop</abbr></li>
+                    <li>6.0 - <abbr title="marshmallows">marshmallows</abbr></li>
+                    <li>7.0- <abbr title="chocolate amendoa">Nougat</abbr></li>
+                    <li>8.0-<abbr title="oreo">oreo</abbr></li>
+                    <li>9.0 - <abbr title="torta">Pie</abbr></li>
+                </abbr>
+
+            </ul>
+
+ 
+        </div>
+
+
+          <footer style="text-align: center;"><p>site criado por junior jamo </p></footer>
+
+
+    </article>
+
+
+
+</body>
